@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', Arial;
+}
+div {
+    margin: 2px;
+    padding: 0;
+}

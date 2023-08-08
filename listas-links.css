@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Raleway', Arial;
+}
+
+.body {
+    display: relative;
+}
+
+section {
+    width: 20%;
+    float: left;
+}
+
+h3 {
+    background-color: rgb(241, 222, 222);
+    border-radius: .15rem;
+    font-size: 1rem;
+}
+
+
+
+.pé {
+    margin: 0;
+	position: absolute;
+    bottom: 0;
+    background-color:rgb(187, 22, 63);
+    width: 99%;   
+    text-align: center;
+	font-size: .8rem;
+	border-radius:.15rem;
+
+}
+.links {
+    color: white;
+    text-decoration: none;
+    line-height: .5px
+   
+}
+
+.rodaPe{
+	margin: 0;
+	position: absolute;
+    bottom: 0;
+    background-color:rgb(187, 22, 63);
+    color: white;
+    width: 99%;   
+    text-align: center;
+	font-size: .8rem;
+	border-radius:.15rem;
+}
+
+

@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Raleway', Arial;
+}
+
+
+
+.cabeçalho {
+	margin: 0;
+    padding: 2%;
+	list-style: none;
+	background-color: rgb(187, 22, 63);
+	font-style: 'Raleway', Arial, Sans-Serif;
+	font-size: 1rem;
+	text-align: center;
+	color: white;
+	border-radius: .15rem;
+}
+
+
+.artigo {
+	float: right;
+	margin: 5%;
+    padding: 0;
+}
+
+
+.menuLateral {
+	width: 20%;
+	background-color: rgb(241, 222, 222);
+	border-radius: .15rem;
+	float: left;
+	margin-top: 2px;
+	
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+
+.h3 {
+ font-size: 1rem;
+ margin: 1%;
+ padding: 1%;
+ background-color: rgb(242, 223, 223);
+ border-radius: .15rem;
+ text-decoration: none;
+
+}
+
+.lista {
+	margin: .5%;
+	padding: .5rem;
+	border: .5rem;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+.artigo {
+	width: 50%;
+	left:0%;
+	position: relative;
+}
+
+
+
+.links {
+	padding: .5rem;
+	text-decoration: none;
+	color: black;
+}
+
+.imagem {
+	margin: .5%;
+	padding: .5rem;
+
+}
+
+
+.rodaPe{
+	
+	height: 40px;
+	margin: 5px;
+    bottom: 0;
+    background-color:rgb(187, 22, 63);
+    color: white;
+    width: 99%;   
+    text-align: center;
+	font-size: .8rem;
+	border-radius:.15rem;
+}
+
+@media (min-width: 425px) {
+	table, nav, h3 {
+	  width: 40%;
+	  min-width: auto ;
+	}
+	article {
+		position: 30%;
+	}
+  }	
+
+@media (max-width: 768px) {
+	nav {
+		width: 30%;
+	}
+	article {
+		width: auto;
+	}
+	table{
+	  width: auto;
+	  min-width: auto;
+	}
+  }
+
+  @media scream and (min-width: 1025px) and (max-width:1200px) {
+	nav {
+		width: auto;
+	}
+	article {
+		width: auto;
+	}
+	table{
+	  width: auto;
+	  min-width: auto;
+	}
+  }
+
+	
+
+
+
+
+
+
